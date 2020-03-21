@@ -1,0 +1,198 @@
+#menuUser,
+#menuAdmin,
+#area {
+  float: left;
+  /* height: 100%; */
+}
+
+#menuUser,
+#menuAdmin {
+  /* border: 1px solid red; */
+  width: 30%;
+  height: 400px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* overflow: auto; */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#menuUser .boton,
+#menuAdmin .boton {
+  width: 80%;
+  height: 35px;
+  margin: 20px;
+}
+
+#buscar {
+  text-align: left;
+  font-size: 25px;
+}
+
+#buscar #buscarPed {
+  float: right;
+}
+
+.form {
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px red;
+  font-size: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#area {
+  /* border: 1px solid red; */
+  width: 70%;
+  height: 400px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#area #coso {
+  overflow: auto;
+}
+
+.datosUser {
+  width: 85% !important;
+  height: 55% !important;
+  float: right !important;
+  margin-right: 10% !important;
+}
+
+.form {
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px red;
+  font-size: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#datos1 {
+  float: left;
+  margin-right: 40px;
+}
+
+#datos2 {
+  float: right;
+  margin-left: 40px;
+}
+
+.datosUser img {
+  width: 120px;
+  height: 120px;
+}
+
+.datosUser h2 {
+  font-size: 25px;
+}
+
+.datosUser th {
+  text-align: left;
+}
+
+.datosUser td :first-child {
+  text-align: center;
+}
+
+.datosUser td {
+  text-align: left;
+}
+
+
+/* MENÚ DEL ADMINISTRADOR */
+
+#altaArt {
+  /* border: 1px solid red; */
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#altaArt input {
+  height: 25px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px red;
+  overflow: hidden;
+  text-align: center;
+}
+
+#altaArt #desc,
+#altaArt #imagen {
+  width: 320px;
+  margin-bottom: 30px;
+}
+
+#altaArt #totalStock {
+  margin-right: 80px;
+}
+
+#altaArt #precio,
+#altaArt #totalStock {
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  /* margin-bottom: 30px; */
+}
+
+#altaArt #caract {
+  text-align: left;
+}
+
+#altaArt textarea {
+  resize: none;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px red;
+  overflow: hidden;
+}
+
+#altaArt .boton {
+  float: center;
+  margin: 10px;
+}
+
+#stock,
+#tabla {
+  width: 100%;
+  margin: auto;
+}
+
+#stock th,
+#stock td,
+#tabla th,
+#tabla td {
+  border: #fe000048 1px solid;
+  width: auto;
+  padding: 5px 10px;
+}
+
+th {
+  font-size: 15px;
+}
+
+td {
+  font-size: 12px;
+}
+
+#div1 {
+  overflow: scroll;
+  height: 200px;
+  width: 500px;
+}
